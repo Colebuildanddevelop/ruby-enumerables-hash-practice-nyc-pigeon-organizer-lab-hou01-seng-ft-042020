@@ -17,8 +17,6 @@ def get_attr(name, attribute_data)
 end 
 
 def nyc_pigeon_organizer(data)
-  # get a list of unique names 
-  # for each name create a hash with approp data
   names = get_unique_names(data)
   new_hash = {}
   names.map do |name| 
